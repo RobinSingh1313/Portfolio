@@ -1,0 +1,155 @@
+
+@font-face {
+  font-family: 'Alkatra';
+  src: url('/src/fonts/static/Alkatra-Regular.ttf') format('opentype');
+  src: url('/src/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('opentype');
+
+  
+}
+*
+{
+  font-family: 'Alkatra';
+  
+}
+p{
+  font-family: 'Playfair Display';
+}
+
+.fontType
+{
+  font-family: 'Alkatra';
+
+}
+.imgs
+{
+
+  animation: morphs 8s ease-in-out infinite;
+  background-image:url(https://lh3.googleusercontent.com/HSutGFQDO_414Eq07tIEsfNEVWa8rUdUDgPpG9zMGhfyyKwUQAY-IXE3fpnn2JYsxXDj_9VggyGh7OISn9n_AjsoweyrAOAxefpkmPTLFLq_l6C1-bo4Ghg2z-pTrEeU0deF0kE7XP3kpButR5pqzO_wY2bbyamPlPbnONi4_x_klzcI1c5z6og0jqcWOqjuR20s7U2OCeUWXSDe6fgGQNeW3YmyRY8q9FS-mP2FO-59mR4nlq7NEnT002wGBdjV9FF3OfQ4JbmNqkfMRL69RaQfPwNPAeDuKqQILpunAQgnVQyESWea8R1-3vCMowLWYXQa7stZryYrevuJ1Z72hOcflyFNY0SjeXtJRn8t24LqhxF6ruodLIwdWVW2qLvDhlDHKnF343IOdzfgSYhCIgLtkcxVU8_xje1iOlZH_8hHGn58N_NQ2ZAV7QO9U0aALJ2Mnd_BmY35SKnLblI_6Qxhgs3R1IcMAW0b_36oVdPDxOyW4T324K9aJrnoMiYHPpc0Nt7ArM7723F31uV8fKqu00wTiCNzFZPXADWrTNPSSSyrp1PatlmZY9VSDC2HKy4CMqDGqC8qhINznN3Pg00LysHUDYT7TX5Rw1erqHJlEYSBL6QPvfQ443nn_l88koMcuvzyuctkyHwsxnno0q5NStC3NEznqU06Cs8_DMSQ3O24aDL-6Pi5feeRcbgfET9BCH6B8DmZnGS7oZryQykb8gDun2nmlDJZ9lQsNFLa7xrTESEL6jn1013i1Xj4gTO_Fdzc0u4iYwJJhliNNcRbFw6IClbvsLZCSTFa_ynPZnQjYgb1Cx9vlK_0MiLdC-gYz5QJAAvLN3xluAjwLSDOVT8kp5EhbrTysWoN6CdtfbaN7XC92Q3Sn_GEebH2SGmXlU5aXKESsOexlaZwSdRcSsFS_NPYux5fxe5qwQx1Ww=w528-h854-s-no?authuser=0) ;
+  background-position: 30%;
+  background-repeat: initial;
+  background-size: cover;
+  border:  3px solid #2d2e32;
+  border-radius: 8% 5% 18% 9%/30% 12% 20% 18%;
+  height: 20rem;
+  position: relative;
+float: initial;
+  transition: all 1s ease-in-out;
+  width: 23rem;
+}
+@keyframes morphs {
+  0%
+  {
+    border-radius: 8% 5% 18% 9%/30% 12% 20% 18%;
+
+  }50%
+  {
+    border-radius: 28% 35% 38% 19%/40% 22% 40% 38%;
+
+  }
+  
+  
+  100%
+  {
+    border-radius: 8% 5% 18% 9%/30% 12% 20% 18%;
+
+
+  }
+  
+}
+
+.outline-text {
+  color: black;
+  font-size: 3rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+
+
+/* Set the background color of the page */
+body {
+  background-color: whitesmoke;
+}
+
+/* Set the background color of the boxes, text, and icons */
+.box,
+.text,
+.icon-xl,
+.mainText {
+  background-color: white;
+  text-align: center;
+
+
+}
+img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 8%;
+}
+
+/* Style the boxes */
+.bos {
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  position: relative;
+
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+
+
+/* Style the extra-large icons */
+.icon-xl {
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+/* Style the download icon */
+.en {
+  float: right;
+}
+
+/* Style the text below the boxes */
+.text {
+  font-size: 12px;
+  color: grey;
+}
+
+
+/* Style the custom button */
+.custom-btn {
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  float: left;
+}
+
+/* Set the width and height of the boxes */
+.box {
+  width: auto;
+  height: 100px;
+  background-color: white;
+  border: 10px;
+}
+
+/* Style the grid layout of the boxes */
+.rows {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}

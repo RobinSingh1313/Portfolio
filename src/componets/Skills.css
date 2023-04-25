@@ -1,0 +1,126 @@
+
+
+.outline-text {
+  color: black;
+  font-size: 3rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+
+
+
+/* Set the background color of the page */
+body {
+  background-color: whitesmoke;
+}
+
+/* Set the background color of the boxes, text, and icons */
+.box,
+.text,
+.icon-xl,
+.mainText {
+  background-color: white;
+
+}
+img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 8%;
+}
+
+/* Style the boxes */
+.bos {
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  position: relative;
+
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+
+
+/* Style the extra-large icons */
+.icon-xl {
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+/* Style the download icon */
+.en {
+  float: right;
+}
+
+/* Style the text below the boxes */
+.text {
+  font-size: 12px;
+  color: grey;
+}
+
+.skill-box {
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  position: relative;
+  height: 300px; /* set the height to 300px */
+  padding: 20px; /* add padding for spacing */
+}
+
+.skill-box h5 {
+  margin-top: 20px; /* add margin to the top of the heading */
+  display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.skill-box p {
+  margin-top: 10px; /* add margin to the top of the paragraphs */
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 30px;
+  font-size: 0.8rem;
+}
+
+ 
+ 
+/* Style the custom button */
+.custom-btn {
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  float: left;
+}
+
+/* Set the width and height of the boxes */
+.box {
+  width: auto;
+  height: auto;
+  background-color: white;
+  border: 10px;
+}
+
+/* Style the grid layout of the boxes */
+.rows {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}

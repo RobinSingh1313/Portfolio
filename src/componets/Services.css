@@ -1,0 +1,133 @@
+.section-padding {
+    padding: 30px 0;
+  }
+  
+  .section-header {
+    margin-bottom: 50px;
+  }
+  
+  .section-header h2 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 900;
+  }.single-service:hover .icon {
+    transform: translateY(-110px);
+  }
+  .marketing-info p {
+    text-align: center;
+  }
+  
+  .single-service:hover .content h3 {
+    transform: translateY(-120px);
+  }
+  .single-service:hover .content ul li{
+    transform: translateY(-130px);
+    margin: 0;
+    padding: 0%;
+  }
+li{
+  list-style: circle;
+  font-size: 15px;
+  color: red;
+  text-align: justify;
+  color: whitesmoke;
+
+}
+  
+  .single-service {
+    text-align: center;
+    height: 380px;
+    padding: 115px 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .single-service .icon {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    margin-bottom: 35px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .single-service .icon .svg-inline--fa {
+    font-size: 39px;
+  }
+  
+  .single-service .content {
+    height: 32px;
+    transition: all 0.3s ease-in-out;
+  }
+  p{
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .single-service .content h3 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    margin: 0;
+    text-transform: uppercase;
+    color: whitesmoke;
+  }
+  
+  .single-service .content p {
+    color: whitesmoke;
+    line-height: 29px;
+    margin: 27px 0 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .single-service:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .single-service:hover .icon {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+    
+    color: #000;
+  }
+  
+  .single-service:hover .content {
+    height: 140px;
+  }
+  
+  .single-service:hover .content h3 {
+    color: #fff;
+  }
+  
+  .single-service:hover .content p {
+    color: #ffffff;
+    opacity: 0.8;
+    font-weight: 900;
+  }
+  
+  .single-service::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    background-image: linear-gradient(to bottom,#000000 100%, #ffffff 0%);
+
+    
+        z-index: -1;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .single-service:hover::before {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0.6;
+  }
+  
