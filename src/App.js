@@ -15,6 +15,7 @@ function App() {
     <Navbar/>
     <Routes>
       <Route exact  path='/' Component={()=> <Home/>}/>
+      <Route exact path='/Portfolio' Component={()=><Home/>}/>
       <Route exact  path='/About' Component={()=> <About/>}/>
       <Route exact  path='/Skills' Component={()=> <Skills/>}/>
       <Route exact  path='/Services' Component={()=> <Services/>}/>
